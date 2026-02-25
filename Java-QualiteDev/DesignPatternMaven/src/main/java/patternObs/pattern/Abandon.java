@@ -15,4 +15,8 @@ public class Abandon {
     public String toString() {
         return"Abandon: " + nom + " - " + classe + " - " + skippers;
     }
+
+    public String getClasse() {
+        return classe;
+    }
 }
